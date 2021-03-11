@@ -18,7 +18,7 @@ export default function Profile(props) {
                     {
                         deletable === true ? (
                             <form method='POST' action={`/riders/delete-rider/${id}?_method=DELETE`}
-                            ><button>Delete Skater</button>
+                            ><button className="rectangle-button">Delete Skater</button>
                             </form>
                         ) : (
                             ''

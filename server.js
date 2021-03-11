@@ -54,7 +54,7 @@ app.post('/riders/add-rider', async (req, res, next) => {
     try {
         // console.log(req.body)
         const newPro = await Pro.create({name: req.body.name, instagramUrl: `https://www.instagram.com/${req.body.igUrl}`, deletable: true})
-        res.redirect('/');  
+        res.redirect(`/`);  
     } catch (error) {
         console.error(error)
     }

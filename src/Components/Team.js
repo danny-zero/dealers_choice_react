@@ -8,7 +8,7 @@ export default function Team(props) {
     const { team, selectedRider, selectRider } = props
     return (
         <Router>
-            <div className="the-team">
+            <div id="the-team" className="the-team">
                 <ul>
                 {
                     team.map((rider) => {
