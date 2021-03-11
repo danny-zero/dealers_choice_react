@@ -31,7 +31,7 @@ export default function Profile(props) {
                     </Route>
                     <ul>
                         {
-                            brands.map(brand => <li key={brand.id}>{brand.instagramUrl !== null ? (<a href={brand.instagramUrl}>{brand.name}</a>): (brand.name)}</li>)
+                            brands.map(brand => <li key={brand.id}>{brand.instagramUrl !== null ? (<a href={brand.instagramUrl} target="_blank">{brand.name}</a>): (brand.name)}</li>)
                         }
                     </ul>
                     <a href={`/#/pro/${id}/edit-skater`}>Edit Sponsor(s)</a>

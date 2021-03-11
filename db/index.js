@@ -64,8 +64,6 @@ const Sponsor = db.define('sponsor', {
 Pro.belongsToMany(Brand, {through: Sponsor, foreignKey: 'sponsorId'})
 Brand.belongsToMany(Pro, {through: Sponsor, foreignKey: 'proId'})
 
-// const gramize = (handle) => `https://www.instagram.com/${handle}`;
-
 const syncAndSeed = async () => {
     await db.sync({force: true});
 

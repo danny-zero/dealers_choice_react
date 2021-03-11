@@ -8,7 +8,7 @@ export default function AddSponsors(props) {
         <form method='POST' action={`/riders/add-sponsor/${selectedRider.id}`}>
         <input type="text" name="sponsor" placeholder="enter sponsor name separated by commas" />
         {/* <input type="text" name="igUrl" placeholder="enter sponsor instagram @" /> */}
-        <button className="sponsors-button">Add Sponsor(s)</button>
+        <button className="rectangle-button">Add Sponsor(s)</button>
         </form>
     )
 }

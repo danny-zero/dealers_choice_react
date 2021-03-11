@@ -8,7 +8,7 @@ export default function AddRider() {
                 <input id="name" name="name" type="text" autoComplete="off"/>
                 <label htmlFor="igUrl">Instagram @: </label>
                 <input id="igUrl" name="igUrl" type="text" autoComplete="off"/>
-                <button type="submit">Add</button>
+                <button className="rectangle-button" type="submit">Add</button>
             </form>
         </div>
     )

@@ -67,16 +67,6 @@ app.post('/riders/add-sponsor/:id', async (req, res, next) => {
         const newBrands = req.body.sponsor.split(",")
         console.log(newBrands)
 
-        // for (const brand of newBrands) {
-        //     if(await Brand.findOne({
-        //         where: {
-        //                     name: {
-        //                         [Op.iLike]: `%${arr[i]}%`
-        //                     }
-        //                 }
-        //     })
-        // }
-
         const forLoop = async (arr) => {
             for (let i = 0; i < arr.length; i++) {
                 console.log(arr[i])

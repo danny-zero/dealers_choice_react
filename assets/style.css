@@ -83,17 +83,6 @@ body {
   margin-bottom: 5px;
 }
 
-.add-rider-form button {
-  border: none;
-  background-color: lightgray;
-}
-
-.add-rider-form button:hover {
-  background-color: orange;
-  color: white;
-  border: none;
-}
-
 .team-header img {
   height: 50px;
 }
@@ -184,7 +173,7 @@ button:hover {
   opacity: 0.5;
 }
 
-.sponsors-button {
+.rectangle-button {
   border-radius: 5%;
   background-color: orange;
   color: white;
