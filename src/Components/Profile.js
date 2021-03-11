@@ -11,7 +11,7 @@ export default function Profile(props) {
         <Router>
             <div className="profile">
                 <div className="left">
-                    <img className="profile-pic" src={img} />
+                    <img className="profile-pic animate__animated animate__flipInY" src={img} />
                 </div>
                 <div className="right">
                     <a href={instagramUrl} target="_blank"><h2>{name}</h2></a>
